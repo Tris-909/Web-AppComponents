@@ -1,0 +1,45 @@
+.background {
+  background-color: white;
+  z-index: 10;
+  padding-top: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
+  width: 100%;
+  height: 60vh;
+  transition: visibility 0s, opacity 0.5s linear;
+
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-areas: "categories images";
+}
+
+.textConatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  grid-area: "categories";
+}
+
+.maintext {
+  font-size: 1.5rem;
+}
+
+.subtext {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: row;
+  grid-area: "images";
+}
+
+.img {
+  width: 90%;
+  height: 70%;
+  margin-right: 2rem;
+}
