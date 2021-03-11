@@ -153,7 +153,7 @@ const NavBar = () => {
 
     setTimeout(() => {
       setActive(true);
-    }, 400);
+    }, 100);
   }
 
   const onLeaveHandler = () => {

@@ -1,0 +1,39 @@
+.imagesection_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 2rem;
+  padding: 1rem 5%;
+}
+
+.imagesection_smaller_container {
+  position: relative;
+}
+
+.imagesection_image {
+  height: 80vh;
+  width: 100%;
+}
+
+.imagesectino_button {
+  background-color: #f388b6;
+  color: white;
+
+  border: none;
+  padding: 0.5rem 1rem;
+
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  z-index: 10;
+}
+
+.imagesection_text {
+  margin-right: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.imagesection_icon {
+  font-size: 1rem;
+}
