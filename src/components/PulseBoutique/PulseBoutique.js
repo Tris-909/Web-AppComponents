@@ -5,6 +5,8 @@ import background from './images/background.img';
 import Navbar from './NavBar/Navbar';
 import SecondNav from './SecondNav/SecondNav';
 import ImageSection from './ImageSection/ImageSection';
+import ShopNewArrival from './ShopNewArrival/ShopNewArrival';
+import Member from './Member/Member';
 
 const PulseBoutique = () => {
     return(
@@ -13,6 +15,8 @@ const PulseBoutique = () => {
             <SecondNav />
             <img src={background} alt="background" className="pulseboutique_background" />
             <ImageSection />
+            <ShopNewArrival />
+            <Member />
         </div>
     );
 }

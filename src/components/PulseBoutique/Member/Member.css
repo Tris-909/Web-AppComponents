@@ -1,0 +1,64 @@
+.member_container {
+  margin-top: 3rem;
+  position: relative;
+}
+
+.member_image {
+  width: 100%;
+  height: 60vh;
+}
+
+.member_text {
+  color: white;
+
+  position: absolute;
+  top: 10%;
+  left: 18%;
+}
+
+.member_pulse {
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+}
+
+.member_perk {
+  font-family: "Rokkit";
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.member_earnpoints {
+  font-family: "Rokkit";
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.member_perkContainer {
+  margin-top: 1rem;
+  font-family: "Rokkit";
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.member_perkContainer div {
+  margin-bottom: 1rem;
+}
+
+.member_memberlogin {
+  padding: 7px 20px;
+  background-color: rgb(243, 136, 182);
+  font-family: "Rokkit";
+  font-weight: 600;
+  color: white;
+  border: none;
+  margin-right: 1rem;
+}
+
+.member_findout {
+  padding: 7px 20px;
+  background-color: black;
+  font-family: "Rokkit";
+  font-weight: 600;
+  color: white;
+  border: none;
+}
